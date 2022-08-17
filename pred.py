@@ -15,7 +15,7 @@ breastCancer_pred_model=pickle.load(open('breastCancerPredictionModel.sav','rb')
 with st.sidebar: 
     
     
-          selected=option_menu('Prediction System',
+          selected=option_menu('Multiple Disease Prediction System',
                         ['Heart Disease Prediction',
                           'Diabetes Prediction',
                           'Breast Cancer Classification',
